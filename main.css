@@ -20,6 +20,9 @@
 .sub-menu {
   padding-left: 0;
   background-color: #dde1e7;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
 }
 .sub-menu li {
   display: block;
@@ -27,4 +30,9 @@
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
 }
